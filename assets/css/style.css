@@ -25,14 +25,14 @@ body {
 }
 
 #footer {
-	height: 20%
+	height: 30%
 	font-size: 12px;
   	color: #fff;
   	color: #ccc;
   	text-align: center;
   	background-color: #666;
   	border-top: 8px solid #4aaaa5;
-  	margin: 5%;
+  	margin-top: 5%;
 }
 
 #aboutme {
@@ -40,10 +40,43 @@ body {
 	color: #423F41;
 }
 
+#portfolio {
+	background-color: #fff;
+	color: #423F41;
+}
+
+#contact {
+	background-color: #fff;
+	color: #423F41;
+}
+
+.form-group {
+	height: 75%;
+	width: 75%
+}
+
+textarea {
+	height: 75%;
+	width: 75%;
+}
+
 button {
 	margin-left: 5%
 }
 
+h4 {
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #fff;
+	width: 150px;
+	position: absolute;
+	bottom: 25%;
+	left: 26%;
+}
+
+.thumbnail {
+	position: relative;
+}
 
 @media screen and (max-width: 960px) {
 
