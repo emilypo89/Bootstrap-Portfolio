@@ -82,6 +82,11 @@ h4 {
 
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
 
 }
+
+@media screen and (max-width: 640px) {
+
+}
+
