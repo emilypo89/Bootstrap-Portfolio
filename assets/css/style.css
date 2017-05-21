@@ -79,7 +79,9 @@ h4 {
 }
 
 @media screen and (max-width: 960px) {
-
+	#navbar {
+		position: static;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -87,6 +89,8 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
-
+	#navbar {
+		position: static;
+	}
 }
 
