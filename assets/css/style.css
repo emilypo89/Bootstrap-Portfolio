@@ -64,7 +64,7 @@ button {
 	margin-left: 5%
 }
 
-h4 {
+.project {
 	background-color: #4aaaa5;
 	text-align: center;
 	color: #fff;
@@ -82,15 +82,65 @@ h4 {
 	#navbar {
 		position: static;
 	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+
 }
 
 @media screen and (max-width: 768px) {
+	#navbar {
+		position: static;
+	}
 
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+				
+	}
+
+	h4 {
+		right: 35px;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	#navbar {
 		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;	
+	}
+
+	h4 {
+		right: 35px;
 	}
 }
 
